@@ -8,6 +8,17 @@ private with sharing class GeocodingServiceTest {
     private static final Decimal LATITUDE = 3.123;
     private static final Decimal LONGITUDE = 31.333;
 
+
+  /*  private with sharing class GeocodingServiceTest {
+        private static final String STREET = 'Camino del Jueves 26';
+        private static final String CITY = 'Armilla';
+        private static final String POSTAL_CODE = '18100';
+        private static final String STATE = 'Granada';
+        private static final String COUNTRY = 'Spain';
+        private static final Decimal LATITUDE = 3.123;
+        private static final Decimal LONGITUDE = 31.333;
+*/
+
     @isTest
     static void successResponse() {
         // GIVEN
